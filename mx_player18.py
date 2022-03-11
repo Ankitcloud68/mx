@@ -24,12 +24,12 @@ with open('s86.txt','w',encoding='utf-8')as s4:
     for i in soup4.prettify():
         s4.write(i)
 
-count=0
+'''count=0
 with open('a84.m3u8','r',encoding='utf-8')as s4:
     for i in s4:
         if i.startswith('#'):
             continue
-        count+=1
+        count+=1'''
 
 def video(s11):
     global a71
