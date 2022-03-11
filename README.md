@@ -12,8 +12,8 @@ For PC>>>pip install -r requirement.txt
 
 
 for Mobile use>>turmux
-pkg install ffmpeg
-pkg install python3
-pip install -r requirement.txt
+1.pkg install ffmpeg
+2.pkg install python3
+3.pip install -r requirement.txt
 
 Enjoy!!!
