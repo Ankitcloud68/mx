@@ -1,5 +1,5 @@
 # MXPLAYER_DOWNLOADER
-this script is crto download mx player stream videos with audio and video together...
+this script is to download mx player stream videos with audio and video together...
 
 here first you should have ffmpeg downloaded in your pc
 ffmpeg and thisscript should be in same folder for work
