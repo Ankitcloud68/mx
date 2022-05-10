@@ -13,8 +13,9 @@ s11=input("""1.144P
 3.216P
 4.270P
 5.360P
-6.720P
-7.1080P
+6.480
+7.720P
+8.1080P
 """)
 a111=input("Enter file name: ")
 a1=scraper.get(a14).text
@@ -58,8 +59,10 @@ def video(s11):
     elif s11=='5':
         a71=a41[0:68]+'h264_360_high_750k.m3u8'
     elif s11=='6':
-        a71=a41[0:68]+'h264_720_high_3000k.m3u8'
+       a71=a41[0:68]+'h264_480_high_1750k.m3u8'
     elif s11=='7':
+        a71=a41[0:68]+'h264_720_high_3000k.m3u8'
+    elif s11=='8':
         a71=a41[0:68]+'h264_1080_high_5800k.m3u8'
     else:
         print('Here wrong input Bro check this')
