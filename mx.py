@@ -80,7 +80,7 @@ def audio():
 
 video(s11)
 audio()
-os.system('ffmpeg -i %s -i %s -c:v copy -c:a aac %s.mp4'%(a71,a81,a111))
+os.system('ffmpeg -i %s -i %s -c:v copy -c:a copy -metadata title="TamilCartoonStreet" -metadata:s:v:0 title="TamilCartoonStreet" -metadata:s:a:0 language=tam -metadata:s:a:0 title="TamilCartoonStreet" %s.mkv'%(a71,a81,a111))
 
     
 
