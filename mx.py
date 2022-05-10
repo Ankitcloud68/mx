@@ -8,6 +8,7 @@ import os
 global a71
 scraper = cloudscraper.create_scraper()
 a14=input("Enter Mx player url here: ")
+x=a14.split("/")
 s11=input("""1.144P
 2.180P
 3.216P
@@ -17,7 +18,7 @@ s11=input("""1.144P
 7.720P
 8.1080P
 """)
-a111=input("Enter file name: ")
+a111=x[6]
 a1=scraper.get(a14).text
 soup4=BeautifulSoup(a1,'html.parser')
 #print(soup4.prettify())
