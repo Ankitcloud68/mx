@@ -52,21 +52,21 @@ def video(s11):
     #a71=a41[0:68]+'h264_720_high_3000k.m3u8'
     #print(a71)
     if s11=='1':
-        a71=a41[0:68]+'h264_144_high_60k.m3u8'
+        a71=a41+'h264_144_high_60k.m3u8'
     elif s11=='2':
-        a71=a41[0:68]+'h264_144_high_60k.m3u8'
+        a71=a41+'h264_180_high_235k.m3u8'
     elif s11=='3':
-        a71=a41[0:68]+'h264_216_high_375k.m3u8'
+        a71=a41+'h264_216_high_375k.m3u8'
     elif s11=='4':
-        a71=a41[0:68]+'h264_270_high_500k.m3u8'
+        a71=a41+'h264_270_high_500k.m3u8'
     elif s11=='5':
-        a71=a41[0:68]+'h264_360_high_750k.m3u8'
+        a71=a41+'h264_360_high_750k.m3u8'
     elif s11=='6':
-        a71=a41[0:68]+'h264_480_high_1750k.m3u8'
+        a71=a41+'h264_480_high_1750k.m3u8'
     elif s11=='7':
-        a71=a41[0:68]+'h264_720_high_3000k.m3u8'
+        a71=a41+'h264_720_high_3000k.m3u8'
     elif s11=='8':
-        a71=a41[0:68]+'h264_1080_high_5800k.m3u8'
+        a71=a41+'h264_1080_high_5800k.m3u8'
     else:
         print('Here wrong input Bro check this')
 
