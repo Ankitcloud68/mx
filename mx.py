@@ -77,7 +77,9 @@ def audio():
     global a81
     a82=outer.search(str(a11))
     a41=a82.group(0)
-    a81=a41[0:68]+'iframe_h264_high_h264_high_audio_128000_0_64.m3u8'
+    a41=a41.rsplit('/',1)[0]
+    a41=a41+"/"
+    a81=a41+'iframe_h264_high_h264_high_audio_128000_0_64.m3u8'
     print(a81)
 
 
