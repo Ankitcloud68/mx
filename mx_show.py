@@ -10,5 +10,5 @@ scraper = cloudscraper.create_scraper()
 a14=input("Enter Mx player url here: ")
 a1=scraper.get(a14).text
 soup4=BeautifulSoup(a1,'html.parser')
-inputs = soup4.find_all('episode-',type="webUrl")
+inputs = soup4.find_all("webUrl":"/show/").get_text() 
 print(inputs)
