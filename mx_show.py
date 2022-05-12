@@ -14,7 +14,7 @@ with open('s86.txt','w',encoding='utf-8')as s4:
     for i in soup4.prettify():
         s4.write(i)
 a11=soup4.find_all("script",type="application/ld+json")
-outer = re.match("show/watch-dhahanam-tamil/season-1/")
+outer = re.compile("show/watch-dhahanam-tamil/season-1/")
 a82=outer.search(str(a11))
 a41=a82.groups(0)
 print(41)
