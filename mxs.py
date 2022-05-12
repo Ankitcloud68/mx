@@ -15,5 +15,5 @@ with open('s86.txt','w',encoding='utf-8')as s4:
         s4.write(i)
 a11=soup4.find_all("div",{"class":"slide"})
 print(a11)
-outer = re.search(r'/show/\w\w\w', str)
+outer = re.match(r'/show/\w', a11)
 print(outer.group(0))
