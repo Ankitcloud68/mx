@@ -15,6 +15,5 @@ with open('s86.txt','w',encoding='utf-8')as s4:
         s4.write(i)
 a11=soup4.find_all("div",{"class":"slide"})
 print(a11)
-for a123 in a11:
-    event_name = a123.find('href')
-    print(event_name)
+for link in a11.find('href'):
+    print(link)
