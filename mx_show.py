@@ -13,5 +13,5 @@ soup4=BeautifulSoup(a1,'html.parser')
 with open('s86.txt','w',encoding='utf-8')as s4:
     for i in soup4.prettify():
         s4.write(i)
-a11=soup4.find_all("div",{"class":"slide")
+a11=soup4.find_all("div",{"class":"slide"})
 print(a11)
