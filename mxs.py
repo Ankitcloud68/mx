@@ -11,7 +11,7 @@ a14=input("Enter Mx player url here: ")
 a1=scraper.get(a14).text
 soup4=BeautifulSoup(a1,'html.parser')
 a11=soup4.find_all("div",{"class":"slide"})
-for i in a11.find('a'):
+for i in a11:
  print(i.find('href'))
 
 
