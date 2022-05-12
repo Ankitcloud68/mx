@@ -14,4 +14,8 @@ with open('s86.txt','w',encoding='utf-8')as s4:
     for i in soup4.prettify():
         s4.write(i)
 a11=soup4.find_all("div",{"class":"slide"})
-print(a11)
+outer = re.compile("/show/*/season-*")
+a82=outer.search(str(a11))
+print(a82)
+a41=a82.group(0)
+print(a41)
