@@ -16,5 +16,5 @@ with open('s86.txt','w',encoding='utf-8')as s4:
 a11=soup4.find_all("script",type="application/ld+json")
 print(a11)
 outer = "show/watch-dhahanam-tamil/season-1/"
-a82=outer.search(str(a11))
+a82=a11.search(str(outer))
 print(a82)
