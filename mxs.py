@@ -13,7 +13,12 @@ soup4=BeautifulSoup(a1,'html.parser')
 with open('s86.txt','w',encoding='utf-8')as s4:
     for i in soup4.prettify():
         s4.write(i)
-a11=soup4.find_all("div",{"class":"slide"})
-outer = re.compile("/show/*/season-*")
+a11=soup4.find_all("script",type="application/ld+json")
+#contentUrl
+outer = re.compile("https://llvod.mxplay.com/video/(.*.m3u8)")
+#print(outer.search(str(a11)))
 a82=outer.search(str(a11))
 print(a82)
+a41=a82.group(0)
+print(a41)
+
