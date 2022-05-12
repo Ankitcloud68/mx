@@ -14,6 +14,6 @@ with open('s86.txt','w',encoding='utf-8')as s4:
     for i in soup4.prettify():
         s4.write(i)
 a11=soup4.find_all("div",{"class":"slide"})
-outer = re.compile("show")
-a82=outer.search(str(a11))
-print(a82)
+print(a11)
+a123=a11.findall("a","href")
+print(a123)
