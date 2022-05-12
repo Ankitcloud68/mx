@@ -12,5 +12,4 @@ a1=scraper.get(a14).text
 soup4=BeautifulSoup(a1,'html.parser')
 a11=soup4.find_all("div",{"class":"slide"})
 for i in a11:
- y=i.find("href")
- print(y)
+ print(i+"\n")
