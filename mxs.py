@@ -2,6 +2,8 @@ import requests
 import cloudscraper
 from bs4 import BeautifulSoup
 import json
+import re
+
 scraper = cloudscraper.create_scraper()
 a14=input("Enter Mx player url here: ")
 a1=scraper.get(a14).text
