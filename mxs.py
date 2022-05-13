@@ -4,8 +4,7 @@ from bs4 import BeautifulSoup
 import json
 import re
 
-sess= requests.session()
-scraper = cloudscraper.create_scraper(sess)
+scraper = cloudscraper.create_scraper()
 a14=input("Enter Mx player url here: ")
 a1=scraper.get(a14).text
 soup4=BeautifulSoup(a1,'html.parser')
